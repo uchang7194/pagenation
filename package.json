@@ -1,0 +1,27 @@
+{
+  "name": "pagenation",
+  "version": "1.0.0",
+  "description": "make ES6 js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js/pagenation.js -d public",
+    "watch": "node-sass -w scss/ -o css/ --output-style expanded --source-map true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uchang7194/pagenation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uchang7194/pagenation/issues"
+  },
+  "homepage": "https://github.com/uchang7194/pagenation#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "node-sass": "^4.7.2"
+  }
+}
